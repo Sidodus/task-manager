@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Sidodus-task-manager/static/css/main.24fd988c.chunk.css",
+    "main.js": "/Sidodus-task-manager/static/js/main.d914e568.chunk.js",
+    "main.js.map": "/Sidodus-task-manager/static/js/main.d914e568.chunk.js.map",
+    "runtime-main.js": "/Sidodus-task-manager/static/js/runtime-main.2bb0d68f.js",
+    "runtime-main.js.map": "/Sidodus-task-manager/static/js/runtime-main.2bb0d68f.js.map",
+    "static/css/2.a2366451.chunk.css": "/Sidodus-task-manager/static/css/2.a2366451.chunk.css",
+    "static/js/2.dfb3dc70.chunk.js": "/Sidodus-task-manager/static/js/2.dfb3dc70.chunk.js",
+    "static/js/2.dfb3dc70.chunk.js.map": "/Sidodus-task-manager/static/js/2.dfb3dc70.chunk.js.map",
+    "index.html": "/Sidodus-task-manager/index.html",
+    "precache-manifest.820d071508d97beb3f6bcc78985e2ab4.js": "/Sidodus-task-manager/precache-manifest.820d071508d97beb3f6bcc78985e2ab4.js",
+    "service-worker.js": "/Sidodus-task-manager/service-worker.js",
+    "static/css/2.a2366451.chunk.css.map": "/Sidodus-task-manager/static/css/2.a2366451.chunk.css.map",
+    "static/css/main.24fd988c.chunk.css.map": "/Sidodus-task-manager/static/css/main.24fd988c.chunk.css.map",
+    "static/js/2.dfb3dc70.chunk.js.LICENSE.txt": "/Sidodus-task-manager/static/js/2.dfb3dc70.chunk.js.LICENSE.txt",
+    "static/media/SidoByMe.png": "/Sidodus-task-manager/static/media/SidoByMe.ea269fc5.png",
+    "static/media/all.min.css": "/Sidodus-task-manager/static/media/fa-solid-900.e245d7d6.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb0d68f.js",
+    "static/css/2.a2366451.chunk.css",
+    "static/js/2.dfb3dc70.chunk.js",
+    "static/css/main.24fd988c.chunk.css",
+    "static/js/main.d914e568.chunk.js"
+  ]
+}

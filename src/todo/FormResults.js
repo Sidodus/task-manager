@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import {
-  deleteTodo,
-  addCompletedTodo
-} from "../actions/todoListActions";
+import { deleteTodo, addCompletedTodo } from "../actions/todoListActions";
 import { getStorageTodos } from "../actions/todoStorageAction";
 
 import ReactTooltip from "react-tooltip";
@@ -30,13 +27,11 @@ class FormResults extends Component {
   }
 
   toDelete = id => {
-    // console.log("ID", id);
     const confirmDelete = window.confirm("Confirm Delete");
 
     if (confirmDelete === true) {
       this.props.deleteTodo(id);
       localStorage.setItem("todoIsDeleted", true);
-      // window.location.reload();
     } else {
       return;
     }
@@ -148,7 +143,7 @@ class FormResults extends Component {
           <div id={`id${idSTR}`} className="collapse">
             <button
               type="button"
-              className="btn btn-success"
+              className="btn btn-sm btn-success"
               onClick={this.back.bind(this, `${idSTR}`)}
             >
               <span
@@ -163,7 +158,7 @@ class FormResults extends Component {
             <div className="spinner-border spinner-border-sm"></div>{" "}
             <button
               type="button"
-              className="btn btn-danger"
+              className="btn btn-sm btn-danger"
               onClick={this.completed.bind(this, id)}
             >
               <span

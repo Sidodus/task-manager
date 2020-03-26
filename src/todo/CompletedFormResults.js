@@ -94,7 +94,7 @@ class CompletedFormResults extends Component {
           <div id={`id${idSTR}`} className="collapse">
             <button
               type="button"
-              className="btn btn-success"
+              className="btn btn-sm btn-success"
               onClick={this.unDo.bind(this, `${idSTR}`)}
             >
               <span

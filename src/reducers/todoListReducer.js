@@ -23,6 +23,15 @@ const initialState = {
   completedTodos: []
 };
 
+// while(new Date().toLocaleTimeString().substr(0, 5) === ("11:34")){
+//   console.info("Now Now")
+// break
+//   }
+
+// document.addEventListener("storage", e => console.log(e.key));
+
+// console.log(new Date().toLocaleTimeString().substr(0, 5));
+
 export default function(state = initialState, action) {
   switch (action.type) {
     case GET_TODOS:

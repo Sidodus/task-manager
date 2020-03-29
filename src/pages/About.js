@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -30,7 +29,7 @@ function About() {
         Developed With React.js &amp; Redux Context Manager.
         <br />
         <br />
-        <Link to="https://github.com/Sidodus">https://github.com/Sidodus</Link>
+        <a href="https://github.com/Sidodus">https://github.com/Sidodus</a>
       </h6>
       <hr />
     </div>

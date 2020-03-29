@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer() {
   const devYear = new Date("2020").getFullYear();
@@ -20,10 +19,10 @@ function Footer() {
       }}
     >
       &copy; Copyright <span className="text-warning">{year}</span> by
-      <Link to="https://github.com/Sidodus/" className="text-light">
+      <a href="https://github.com/Sidodus/" className="text-light">
         {" "}
         Saheed Odulaja{" "}
-      </Link>
+      </a>
     </footer>
   );
 }

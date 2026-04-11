@@ -10,7 +10,7 @@
     "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "gh-pages": "^2.2.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.7.1",
     "popper.js": "^1.16.1",
     "react": "^16.13.0",
     "react-datetime-picker": "^2.9.0",
